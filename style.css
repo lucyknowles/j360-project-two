@@ -19,12 +19,12 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: #0B0D78; 
+	color: #7c242a; 
 	font-family:century gothic;
 }
 
 nav ul li a:hover {
-	color: #4682B4
+	color: #edadab
 	 
 }
 
@@ -36,7 +36,7 @@ nav ul li a:hover {
 heading{
 	text-align:center;
 	font-family:century gothic;
-	color:#175461;
+	color:#7c242a;
 	}
 
 #container {
