@@ -1,6 +1,54 @@
 /*CSS document*/
 
 
+/*PAGE*/
+
+
+
+
+heading{
+        width:100%;
+        height:218px;
+        margin-left:auto;
+        margin-right:auto;
+        background-position:center;
+        background-repeat:no-repeat;
+	padding-left:300px;
+	font-family: 'Rock Salt', cursive;;
+	color:#1b7e1e;
+	
+	}
+	
+body{
+background-color: #cbedc4;
+}
+
+/* DIVS*/
+
+#page-wrap{ 
+	width:900px;
+	margin:0 auto;
+}
+
+#container {
+	background: #cbedc4;
+	padding: 30px;
+
+}
+
+#tree{
+	padding-left:300px;
+	}
+	
+/*CLASS*/
+
+.heading{
+
+padding-left:250;
+}
+
+
+/* NAV*/
 nav {
 	height: 30px;  
 	text-transform: uppercase;
@@ -19,39 +67,12 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: #ffffff
-; 
-	font-family:century gothic;
+	color: #ffffff; 
+	font-family: 'Bad Script', cursive;
 }
 
 nav ul li a:hover {
-	color: #e7fee6
+	color: #e7fee6;
 	 
-}
-
-#page-wrap{ 
-	width:900px;
-	margin:0 auto;
-}
-
-heading{
-	text-align:center;
-	font-family:century gothic;
-	color:#1b7e1e;
-	
-	}
-	head{
-	float:center;
-	}
-
-#container {
-	background: #cbedc4;
-	padding: 30px;
-
-}
-
-body{
-
-background-color: #cbedc4;
 }
 
