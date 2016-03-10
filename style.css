@@ -1,9 +1,46 @@
 /*CSS document*/
 
 
+/*Layout */
+
+
+body{ 
+	width:90%;
+	margin:0auto;
+	
+	}
+
+#content{overflow:auto;
+		padding: 20px;
+		Background-image:url("images/apple1.png");
+		Background-repeat:no-repeat;
+		Background-attachment:fixed;
+		Background-position:90% 120%;
+	}
+
+nav, header, .footer{margin:2%;}
+
+.col1, .col2 {width:30%;
+			float:left;
+			margin:2%;}
+					
+.col2{ 
+margin-right:1%
+padding-left:2%}
+
+.coll1 {width:80%;
+			float:left;
+			margin:1%;}
+					
+.coll1{ margin-right:0%}
+
+li{
+display: inline;
+padding: 0.5em;
+}
+
+
 /*PAGE*/
-
-
 
 
 heading{
@@ -11,40 +48,40 @@ heading{
         height:218px;
         margin-left:auto;
         margin-right:auto;
-        background-position:center;
-        background-repeat:no-repeat;
-	padding-left:300px;
-	font-family: 'Rock Salt', cursive;;
-	color:#1b7e1e;
-	
+		font-family: 'Rock Salt', cursive;
+		color:#971c34;
 	}
 	
-body{
-background-color: #cbedc4;
+	
+main {
+	width: 75%;
+	float: center;
+	padding-left: 30px;
 }
 
+h2, p, h3, h4{ color:#2d060c;
+	font-family: 'Quicksand', cursive;
+	}
+
+h3{ text-decoration:underline;}
 /* DIVS*/
 
-#page-wrap{ 
-	width:900px;
-	margin:0 auto;
-}
 
-#container {
-	background: #cbedc4;
-	padding: 30px;
-
-}
-
-#tree{
-	padding-left:300px;
-	}
-	
 /*CLASS*/
 
-.heading{
+.menu{font-family: 'Bad Script', cursive;
+		color: #5a0c18;}
 
-padding-left:250;
+.title{ padding-left:40%;}
+
+.dinner{
+width:6%;
+padding-left:1%;
+padding-right:1%;
+border-top: 1% solid #665544;
+border-bottom: 1% solid #665544;
+border-left: 1% solid #665544;
+border-right: 1% solid #665544;
 }
 
 
@@ -59,20 +96,20 @@ nav ul li {
 	float: left;
 	list-style-type: none; 
 	background: #555;
-	width: 160px;
+	width:100%;
 	text-align: center;
-	background-color:#cbedc4; 
+	background-color:#ffffff; 
 	
 }
 
 nav ul li a {
 	text-decoration: none;
-	color: #ffffff; 
+	color: #660033 ; 
 	font-family: 'Bad Script', cursive;
 }
 
 nav ul li a:hover {
-	color: #e7fee6;
+	color: #990033;
 	 
 }
 
